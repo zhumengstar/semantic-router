@@ -50,6 +50,7 @@ func Setup(cfg *config.Config) *Server {
 	SetupMCP(mux, cfg, wf, openClawHandler)
 	registerMLPipelineRoutes(mux, cfg, wf)
 	registerOpenClawRoutes(mux, cfg, openClawHandler)
+	registerModelRouterRoutes(mux, cfg)
 	registerProxyRoutes(mux, cfg)
 
 	// Static frontend must be registered last.

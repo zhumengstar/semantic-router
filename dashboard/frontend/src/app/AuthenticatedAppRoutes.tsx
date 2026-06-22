@@ -28,6 +28,7 @@ const InsightsRecordPage = lazy(() => import('../pages/InsightsRecordPage'))
 const KnowledgeMapPage = lazy(() => import('../pages/KnowledgeMapPage'))
 const LogsPage = lazy(() => import('../pages/LogsPage'))
 const MLSetupPage = lazy(() => import('../pages/MLSetupPage'))
+const ModelRouterPage = lazy(() => import('../pages/ModelRouterPage'))
 const MonitoringPage = lazy(() => import('../pages/MonitoringPage'))
 const OpenClawPage = lazy(() => import('../pages/OpenClawPage'))
 const PlaygroundFullscreenPage = lazy(() => import('../pages/PlaygroundFullscreenPage'))
@@ -59,6 +60,7 @@ const shellPageElements: Record<ShellRoutePage, React.ReactElement> = {
   insights: <InsightsPage />,
   'insights-record': <InsightsRecordPage />,
   logs: <LogsPage />,
+  'model-router': <ModelRouterPage />,
   monitoring: <MonitoringPage />,
   playground: <PlaygroundPage />,
   ratings: <RatingsPage />,

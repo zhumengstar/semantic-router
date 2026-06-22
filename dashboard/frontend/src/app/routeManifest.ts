@@ -10,6 +10,7 @@ export type ShellRoutePage =
   | 'insights'
   | 'insights-record'
   | 'logs'
+  | 'model-router'
   | 'monitoring'
   | 'playground'
   | 'ratings'
@@ -44,6 +45,7 @@ export const shellRouteDefinitions: readonly ShellRouteDefinition[] = [
   { path: '/tracing', page: 'tracing' },
   { path: '/status', page: 'status' },
   { path: '/logs', page: 'logs' },
+  { path: '/model-router', page: 'model-router' },
   { path: '/insights', page: 'insights' },
   { path: '/insights/:recordId', page: 'insights-record' },
   { path: '/evaluation', page: 'evaluation' },

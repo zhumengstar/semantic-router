@@ -90,6 +90,7 @@ export const ANALYSIS_OPERATIONS_MENU_SECTIONS: LayoutMenuSection[] = [
     items: [
       { kind: 'route', label: 'Status', to: '/status' },
       { kind: 'route', label: 'Logs', to: '/logs' },
+      { kind: 'route', label: 'Model Router', to: '/model-router' },
       { kind: 'route', label: 'Monitoring', to: '/monitoring' },
       { kind: 'route', label: 'Tracing', to: '/tracing' },
     ],
